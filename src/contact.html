@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/my_main_contact_us.css">
+    <link rel="stylesheet" href="css/my_second_contact_us.css">
+</head>
+
+<body>
+    <div id="MainBox">
+        <h2 id="MainHeading">Contact Us</h2>
+        <form id="MainForm" action="https://formspree.io/f/mjvzneyy" method="POST">
+            <input type="text" id="FnameInput" placeholder="First Name" name="first_name">
+            <input type="text" id="LnameInput" placeholder="Last Name" name="last_name">
+            <input type="text" name="email" placeholder="Your email" id="EmailInput" />
+            <input type="date" id="DateInput" name="date">
+            <input type="number" id="PhoneNumberInput" placeholder="Phone Number" name="phone_number">
+            <textarea rows="8" placeholder="Message" id="MessageInput" name="message"></textarea>
+            <button type="submit" id="SubmitButton">Submit</button>
+        </form>
+        <div id="ErrorDisplay"></div>
+        <p id="MainFormStatus"></p>
+        <p class="credits-centered-text">
+            Made by Asispal Singh (001234334) and Ashmeet Singh (001231269).
+            Professor: Imran Hassan
+        </p>
+    </div>
+    <script src="js/my_main_contact_us.js"></script>
+</body>
+
+</html>

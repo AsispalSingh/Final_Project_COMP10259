@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0;
+}
+
+#MainFormStatus {
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.credits-centered-text {
+    font-size: 18px;
+    opacity: 0.5;
+    text-align: center;
+    margin: 0px;
+    padding: 8px;
+}
+
+
+#MainHeading {
+    text-align: center;
+    color: #ff0000;
+    padding: 16px;
+    margin: 0px;
+}
+
+
+input,
+h1,
+h2,
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainForm>input,
+#MainForm>button,
+#MainForm>textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 4px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+#ErrorDisplay {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 4px;
+    font-size: 16px;
+    color: #ff0000;
+}
+
+
+@media only screen and (min-width: 640px) {
+    #MainBox {
+        margin: 0px auto;
+        width: 480px;
+    }
+}

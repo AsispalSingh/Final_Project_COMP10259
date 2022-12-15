@@ -1,0 +1,18 @@
+#MainNavBox > div:nth-child(2) > div {
+  color: yellow;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 20px;
+}
+
+#MainNavBox > div:nth-child(2) > div:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#MainNavBox {
+  position: sticky;
+}
+
+/*# sourceMappingURL=my_second.css.map */
